@@ -1,0 +1,3 @@
+AMQP_URI: 'Broker path here'
+DB_URIS:
+    "authentication_service:Base": postgresql://${DB_USER:the_user_name}:${DB_PASSWORD:the_password}@${DB_HOST:the_db_host}:${DB_PORT:the_db_port}/${DB_NAME:the_db_name}
